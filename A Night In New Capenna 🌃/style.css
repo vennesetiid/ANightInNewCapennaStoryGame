@@ -1,0 +1,130 @@
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+
+*:focus {
+    outline: none;
+}
+
+.storyButton {
+    display: "none";
+    background: beige;
+    font-size: 28px;
+    letter-spacing: 2px;
+    font-family: 'Limelight', cursive;
+    font-weight: bold;
+    color: olive;
+    width: 180px;
+    height: 60px;
+    text-transform: uppercase;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 12px groove darkkhaki;
+}
+
+.storyButton:hover {
+    background: bisque;
+}
+
+h1 {
+    color: bisque;
+    font-size: 60px;
+    font-family: 'Limelight', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    border-radius: 50%;
+    margin-bottom: 28px;
+    margin-top: 150px;
+    padding: 20px;
+}
+
+p {
+    color: bisque;
+    font-size: 25px;
+    font-family: 'Limelight', cursive;
+    text-transform: uppercase;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#typeNameText {
+    margin: auto;
+    margin-top: 20px;
+    display: inline-block;
+    color: bisque;
+    font-family: 'Limelight', cursive;
+    background: black;
+    font-size: 25px;
+}
+
+body {
+    background: url(https://i.postimg.cc/RVY2D6bx/Bildschirmfoto-2022-09-28-um-19-58-38.png);
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+#textblock {
+    background: black;
+    font-family: 'Limelight', cursive;
+    font-size: 25px;
+    letter-spacing: 5px;
+    line-height: 1, 2;
+    text-transform: uppercase;
+    width: 50%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#storytext {
+    color: bisque;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+#nameInput {
+    color: olive;
+    background: beige;
+    text-align: center;
+    font-family: 'Limelight', cursive;
+    text-transform: uppercase;
+    width: 260px;
+    height: 65px;
+    font-size: 35px;
+    border: 10px groove darkkhaki;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#submitName {
+    background: beige;
+    color: olive;
+    font-family: 'Limelight', cursive;
+    font-size: 28px;
+    margin: auto;
+    width: 160px;
+    height: 60px;
+    text-transform: uppercase;
+    border: 10px groove darkkhaki;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+#submitName:hover {
+    background: bisque;
+}

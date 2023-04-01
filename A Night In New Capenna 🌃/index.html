@@ -1,0 +1,45 @@
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Limelight&display=swap">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="headertext">
+        <br>
+        <h1>A Night In New Capenna</h1>
+
+        <p> Fictional <br>
+            Magic The Gathering Story <br>
+            set in New Capenna ✨
+            <br>
+        </p>
+
+        <div class="container">
+            <p id="typeNameText"> Type your name : </p>
+        </div>
+
+        <input type="text" id="nameInput" name="storyInput"><br>
+
+        <input class="storyButton" id="submitName" type="button" value="Submit" onclick="submitName();" /><br>
+    </div>
+
+    <div id="textblock">
+        <p2 id="storytext"></p2>
+    </div>
+
+    <input class="storyButton" id="leave" type="button" value="Leave" onclick="leave();" />
+    <input class="storyButton" id="stay" type="button" value="Stay" onclick="stay();" />
+
+    <input class="storyButton" id="run" type="button" value="Run" onclick="run();" />
+    <input class="storyButton" id="wait" type="button" value="Wait" onclick="wait();" />
+
+    <input class="storyButton" id="nap" type="button" value="Nap" onclick="nap();" />
+    <input class="storyButton" id="explore" type="button" value="Explore" onclick="explore();" />
+
+    <input class="storyButton" id="drink" type="button" value="Drink" onclick="drink();" />
+    <input class="storyButton" id="decline" type="button" value="Decline" onclick="decline();" />
+
+    <script src="script.js"></script>
+</body>
